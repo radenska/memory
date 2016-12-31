@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TEAM ZERO HEROES MEMORY CHALLENGE</title>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <h1>ZERO HEROES MEMORY CHALLENGE</h1>
+    <hr class="styled">
+      <form id="user-form">
+        <fieldset>
+          <label for ="userName">Player Name: </label>
+          <input name = "userName" type="text" size="50" required />
+          <button id="userNameButton" type="submit">Create New Player!</button>
+        </fieldset>
+      </form>
+
+      <p id="playGame"></p> <!--enter user name-->
+      <ul>
+        <li id="yesButton"></li> <!--yes, i want to play-->
+        <li id="noButton"></li> <!--no, i don't want to play-->
+      </ul>
+
+      <p id="yesLetsPlay"></p> <!--Game instructions-->
+      <section>
+        <p id="options"><span id="op1"></span><span id="op2"></span><span id="seeInstructions"></span>
+        <span id="hideInstructions"></span></p>
+      </section>
+
+      <table class"gameTable" id="gameBoard"></table>
+
+      <p id="afterGame"></p>
+
+      <section class="endGameButtons">
+        <p id="registerScore"></p>
+        <p id="playSame"></p>
+        <p id="playOther"></p>
+        <p id="seeRegisteredScores"></p>
+      </section>
+
+      <p id="isPlayerClicking"></p>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
